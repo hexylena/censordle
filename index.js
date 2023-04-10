@@ -334,7 +334,7 @@
   }
   const startDay = getDay(new Date('2023-03-09'))
   const currentDay = getDay(new Date()) - startDay
-
+alert(currentDay)
   const localData = (function () {
     let data = localStorage.getItem('censordle')
     if (data === null) {

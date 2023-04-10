@@ -334,7 +334,12 @@
   }
   const startDay = getDay(new Date('2023-03-09'))
   const currentDay = getDay(new Date()) - startDay
-alert(currentDay)
+  
+  const URL = new URL(window.location.href); 
+const getParam = URL.searchParams.get('id'); 
+
+  const pickedDay = (getParam !== undefined && getParam !== null) ? getParam : currentDay;
+  
   const localData = (function () {
     let data = localStorage.getItem('censordle')
     if (data === null) {
@@ -345,8 +350,8 @@ alert(currentDay)
     } else {
       data = JSON.parse(data)
     }
-    if (data.current.day !== currentDay) {
-      data.current = { day: currentDay, guesses: [] }
+    if (data.current.day !== pickedDay) {
+      data.current = { day: pickedDay, guesses: [] }
     }
     return data
   })()

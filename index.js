@@ -12,6 +12,10 @@
     // pronouns
     'it',
     'where',
+    'he' , 'him', 'his',
+    'she', 'her',  'hers'
+, 'they', 'them', 'theirs',
+
 
     // verbs
     'is',

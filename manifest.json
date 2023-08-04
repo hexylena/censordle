@@ -8,11 +8,14 @@
     {
       "src": "/assets/512.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "512x512",
+      "purpose": "any maskable"
     },
     {
       "src": "/assets/logo.svg",
-      "sizes": "any"
+      "type": "image/svg",
+      "sizes": "any",
+      "purpose": "any maskable"
     }
   ],
   "start_url": "/censordle/index.html",

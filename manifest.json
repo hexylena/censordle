@@ -4,7 +4,7 @@
   "short_name" : "Censordle",
   "description" : "Guess the title of the Wikipedia article",
   "display" : "minimal-ui",
-  "scope" : "/",
+  "scope" : "/censordle/",
   "icons": [
     {
       "src": "/assets/512.png",
@@ -16,6 +16,6 @@
       "sizes": "any"
     }
   ],
-  "start_url" : "/",
-  "theme_color" : "#7b7a7a",
+  "start_url" : "/censordle/",
+  "theme_color" : "#7b7a7a"
 }

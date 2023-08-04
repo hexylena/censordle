@@ -1,10 +1,9 @@
 {
-  "background_color" : "#000000",
-  "name" : "Censordle",
-  "short_name" : "Censordle",
-  "description" : "Guess the title of the Wikipedia article",
-  "display" : "minimal-ui",
-  "scope" : "/censordle/",
+  "background_color": "#000",
+  "description": "Guess the title of the Wikipedia article",
+  "display": "standalone",
+  "name": "Censordle",
+  "scope": "/censordle/",
   "icons": [
     {
       "src": "/assets/512.png",
@@ -16,6 +15,6 @@
       "sizes": "any"
     }
   ],
-  "start_url" : "/censordle/",
-  "theme_color" : "#7b7a7a"
+  "start_url": "/censordle/",
+  "theme_color": "#777"
 }

@@ -15,6 +15,6 @@
       "sizes": "any"
     }
   ],
-  "start_url": "/censordle/",
+  "start_url": "/censordle/index.html",
   "theme_color": "#777"
 }

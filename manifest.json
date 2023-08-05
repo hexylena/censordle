@@ -1,8 +1,11 @@
 {
-  "background_color": "#fff",
-  "description": "Collection of tutorials developed and maintained by the worldwide Galaxy community",
-  "display": "minimal-ui",
-  "name": "Galaxy Training Network",
+  "background_color": "#000",
+  "description": "Guess the title of the Wikipedia article",
+  "display": "standalone",
+  "name": "Censordle",
+  "short_name": "Censordle",
+  "start_url": "/censordle/",
+  "scope": "/censordle/",
   "icons": [
     {
       "src": "/assets/512.png",
@@ -18,6 +21,5 @@
   ],
   "shortcuts": [
   ],
-  "start_url": "/censordle/",
-  "theme_color": "#2c3143"
+  "theme_color": "#ccc"
 }

@@ -11,13 +11,12 @@
       "src": "/assets/512.png",
       "type": "image/png",
       "sizes": "512x512",
-      "purpose": "any maskable"
+      "purpose": "maskable"
     },
     {
       "src": "/assets/logo.svg",
-      "type": "image/svg",
       "sizes": "any",
-      "purpose": "any maskable"
+      "purpose": "any"
     }
   ],
   "theme_color": "#777"

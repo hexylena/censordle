@@ -3,9 +3,8 @@
   "description": "Guess the title of the Wikipedia article",
   "display": "minimal-ui",
   "name": "Censordle",
-  "short_name": "Censordle",
-  "start_url": "/censordle/",
   "scope": "/censordle/",
+  "short_name": "Censordle",
   "icons": [
     {
       "src": "/assets/512.png",
@@ -22,10 +21,16 @@
     {
       "src": "/assets/logo.svg",
       "sizes": "any",
-      "purpose": "any"
     }
   ],
   "shortcuts": [
+    {
+      "description": "Testing",
+      "name": "Test Shortcut",
+      "short_name": "Test",
+      "url": "/censordle/fail"
+    }
   ],
+  "start_url": "/censordle/",
   "theme_color": "#ccc"
 }

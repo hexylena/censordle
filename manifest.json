@@ -1,7 +1,7 @@
 {
   "background_color": "#000",
   "description": "Guess the title of the Wikipedia article",
-  "display": "standalone",
+  "display": "minimal-ui",
   "name": "Censordle",
   "short_name": "Censordle",
   "start_url": "/censordle/",
@@ -12,6 +12,12 @@
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "maskable"
+    },
+    {
+      "src": "/assets/512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
     },
     {
       "src": "/assets/logo.svg",

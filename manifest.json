@@ -1,7 +1,7 @@
 {
   "background_color": "#000",
   "description": "Guess the title of the Wikipedia article",
-  "display": "minimal-ui",
+  "display": "standalone",
   "name": "Censordle",
   "scope": "/censordle/",
   "short_name": "Censordle",

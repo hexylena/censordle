@@ -7,17 +7,17 @@
   "short_name": "Cnsrdl",
   "icons": [
     {
-      "src": "/assets/512.png",
+      "src": "/censordle/assets/512.png",
       "type": "image/png",
       "sizes": "512x512"
     },
     {
-      "src": "/assets/192.png",
+      "src": "/censordle/assets/192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/assets/logo.svg",
+      "src": "/censordle/assets/logo.svg",
       "sizes": "any"
     }
   ],

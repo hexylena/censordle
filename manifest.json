@@ -9,14 +9,12 @@
     {
       "src": "/assets/512.png",
       "type": "image/png",
-      "sizes": "512x512",
-      "purpose": "maskable"
+      "sizes": "512x512"
     },
     {
-      "src": "/assets/512.png",
+      "src": "/assets/192.png",
       "type": "image/png",
-      "sizes": "512x512",
-      "purpose": "any"
+      "sizes": "192x192"
     },
     {
       "src": "/assets/logo.svg",

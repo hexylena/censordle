@@ -4,7 +4,7 @@
   "display": "standalone",
   "name": "Censordle",
   "scope": "/censordle/",
-  "short_name": "Censordle",
+  "short_name": "Cnsrdl",
   "icons": [
     {
       "src": "/assets/512.png",

@@ -21,14 +21,6 @@
       "sizes": "any"
     }
   ],
-  "shortcuts": [
-    {
-      "description": "Testing",
-      "name": "Test Shortcut",
-      "short_name": "Test",
-      "url": "/censordle/fail"
-    }
-  ],
   "start_url": "/censordle/",
   "theme_color": "#ccc"
 }
